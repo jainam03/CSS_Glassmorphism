@@ -13,7 +13,7 @@
     height: 100vh;
     background-color: black;
     /*background-image: url(images/back.png);*/
-    background-image: url(images/back2.png);
+    background-image: url(images/back.png);
     background-size: cover;
 
     display: flex;
