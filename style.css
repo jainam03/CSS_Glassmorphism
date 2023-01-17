@@ -11,10 +11,10 @@
 .container {
     width: 100%;
     height: 100vh;
-    background-color: black;
-    /*background-image: url(images/back.png);*/
     background-image: url(images/back.png);
-    background-size: cover;
+    /*background-size: cover;*/
+    background-style: absolute;
+
 
     display: flex;
     align-items: center;
@@ -32,8 +32,8 @@
     background: rgba(255, 255, 255, 0.2);
     border-radius: 16px;
 
-    box-shadow: 0 4px 30px rgb(255, 255, 255, 0.5);
-    backdrop-filter: blur(10px);
+    box-shadow: 0 4px 30px rgb(255, 255, 255, 0.3);
+    backdrop-filter: blur(20px) saturate(100%);
 }
 
 .card img {
@@ -90,4 +90,5 @@
 .btn:active {
     transform: translateY(7px);
     color: auto;
+    box-shadow: none;
 }
