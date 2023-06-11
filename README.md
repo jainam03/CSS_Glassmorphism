@@ -1,2 +1,1 @@
-# Learned this from a youtube channel
-# webpage link :- https://jainam03.github.io/CSS_Glassmorphism/
+<h1>Learned this from a youtube channel</h1>
